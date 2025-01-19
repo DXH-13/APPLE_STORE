@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lora&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerbig {
+    background-color: #f7f7f7;
+    width: 80%;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 50px 30px;
+    margin: 50px auto;
+    box-shadow: 0 50px 150px #5553;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerC {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.order-info,
+.customers,
+.empty-div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.order-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.customer-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.order-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-info th,
+.order-info td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.order-info th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+.customers {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.customersC {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 200px;
+    margin: 0 20px;
+}
+
+.customers h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.empty-div {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.containerC {
+    display: flex;
+    align-items: center;
+}
+
+.containerC img.lav-link-apple {
+    margin: 8.4px;
+    width: 50px;
+    height: 50px;
+}
+
+.containerC div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; 
+}
+
+.customer-info {
+    height: 180px;
+}

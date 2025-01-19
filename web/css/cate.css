@@ -1,0 +1,12 @@
+.custom-list {
+    list-style: none;
+    padding: 0; 
+}
+.custom-list li {
+}
+
+.custom-list a {
+    font-size: 18px;
+    text-decoration: none; 
+    color: #bdc3c7; 
+}

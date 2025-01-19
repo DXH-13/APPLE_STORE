@@ -1,0 +1,42 @@
+#userDropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+#userDropdown li {
+    list-style: none;
+    padding: 0 5px;
+}
+
+#userDropdown li a {
+    text-decoration: none;
+    color: black;
+}
+
+#userDropdown li span {
+    display: block;
+    color: black;
+    font-size: 12px;
+}
+#userDropdown li a.lav-link {
+    margin: 0;
+    padding: 0;
+}
+.image-wrapper {
+    max-width: 100%; /* Điều chỉnh kích thước theo ý muốn */
+    margin: 0 auto; /* Căn giữa thẻ div */
+    text-align: center; /* Căn giữa ảnh nếu cần */
+}
+
+.image-wrapper img {
+    width: 1920px; /* Để ảnh chiếm toàn bộ chiều rộng của thẻ div */
+    height: auto; /* Giữ tỷ lệ khung hình */
+    margin-left: -485px;
+    margin-top: 0px; 
+}
+

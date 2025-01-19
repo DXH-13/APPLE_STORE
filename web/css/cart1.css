@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lora&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    /*background-color: #f0f0f0;*/
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: chocolate;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+#bag {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+a {
+    text-decoration: none;
+    color: chocolate;
+    font-size: 22px;
+    font-weight: bold;
+}
+.tr {
+    text-align: right;
+}
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+button a {
+    color: chocolate;
+    text-decoration: none;
+}
+button:hover {
+    font-weight: bold;
+}
+button:focus {
+    outline: none;
+}
+button:active {
+    transform: scale(1.1);
+}
+input[type="submit"] {
+    background-color: chocolate;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #8B4513;
+}

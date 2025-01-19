@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2C5364;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.href {
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #2C5364;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tr {
+    text-align: right;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button a {
+    color: #2C5364;
+    text-decoration: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #203A43;
+    transform: scale(1.1);
+}
+
+input[type="submit"] {
+    background-color: #2C5364;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Style the image to have rounded corners */
+.img-manage {
+    width: 190px;
+    border-radius: 20px;
+}
